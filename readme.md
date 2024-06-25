@@ -1,2 +1,7 @@
 # Postman Clone
+Postman Clone provides a user-friendly interface for making requests to APIs and returning formatted jJSON responses.
+Ideal for developers and testers.
+
 <img width="495" alt="Screenshot1" src="https://github.com/facundoVega/Postman-clone/assets/11906403/9c4fa6a7-47a8-4acf-ac64-39881ca3823e">
+
+
