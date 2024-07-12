@@ -111,7 +111,10 @@
             this.httpVerbSelection.FormattingEnabled = true;
             this.httpVerbSelection.Items.AddRange(new object[] {
             "GET",
-            "POST"});
+            "POST",
+            "PUT",
+            "PATCH",
+            "DELETE"});
             this.httpVerbSelection.Location = new System.Drawing.Point(100, 87);
             this.httpVerbSelection.Name = "httpVerbSelection";
             this.httpVerbSelection.Size = new System.Drawing.Size(131, 46);
@@ -152,10 +155,10 @@
             // resultsTab
             // 
             this.resultsTab.Controls.Add(this.resultsText);
-            this.resultsTab.Location = new System.Drawing.Point(4, 47);
+            this.resultsTab.Location = new System.Drawing.Point(4, 34);
             this.resultsTab.Name = "resultsTab";
             this.resultsTab.Padding = new System.Windows.Forms.Padding(3);
-            this.resultsTab.Size = new System.Drawing.Size(917, 315);
+            this.resultsTab.Size = new System.Drawing.Size(917, 328);
             this.resultsTab.TabIndex = 1;
             this.resultsTab.Text = "Results";
             this.resultsTab.UseVisualStyleBackColor = true;
@@ -169,7 +172,7 @@
             this.resultsText.Name = "resultsText";
             this.resultsText.ReadOnly = true;
             this.resultsText.ScrollBars = System.Windows.Forms.ScrollBars.Both;
-            this.resultsText.Size = new System.Drawing.Size(911, 309);
+            this.resultsText.Size = new System.Drawing.Size(911, 322);
             this.resultsText.TabIndex = 5;
             // 
             // Dashboard
